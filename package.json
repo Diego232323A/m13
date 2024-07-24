@@ -1,0 +1,15 @@
+{
+    "name": "get_user_mongo",
+    "version": "1.0.0",
+    "description": "Microservice to get users from MongoDB",
+    "main": "getUser.js",
+    "scripts": {
+      "start": "node getUser.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "mongoose": "^5.13.8"
+    }
+  }
+  
